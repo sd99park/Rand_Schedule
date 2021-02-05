@@ -12,4 +12,9 @@ is still under development but the logic behind everything has been finished. th
 output of this program is still in the terminal, but I have plans to add a front 
 end with Django to make this more user friendly.
 
+# Todo List
 
+-Create a Django front end
+-Fix bugs as they are found
+-Change to a bi-weekly schedule rather than weekly
+-Add a database with login and schedule data stored per user
