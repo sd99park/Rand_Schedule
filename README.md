@@ -12,6 +12,18 @@ is still under development but the logic behind everything has been finished. th
 output of this program is still in the terminal, but I have plans to add a front 
 end with Django to make this more user friendly.
 
+# How the algorithm works
+
+I created this to be randomized, and not nessesarily efficient. It begins by randomly 
+assigning people to work each day, this has no consideration for making a even schedule 
+yet. Once people have been assigned to each shift, it then compares the person working 
+the most to the person working the least. It then gives a random shift of the person 
+working the most, to the person works the least. It then repeats this comparison until 
+the person with the most shifts has most less more than 2 shifts then the person with 
+the least shifts. The number 2 can be adjusted, it works best for the number of 
+employees used at my lifeguarding job (roughly 40), but might need to be raised if the 
+number of people increased. 
+
 # Todo List
 
 -Create a Django front end
