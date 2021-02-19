@@ -9,6 +9,8 @@ class Employees:
     def DaysWorkingLength(self):
         return len(self.DaysWorking)
 
+    # Used when reading the file, adding to total days working in order to account
+    # for days off when creating even schedule. I suppose a better name would be TotalDaysBusy
     def AddDayOff(self, Day):
         if Day == "M":
             self.DaysOff.append(0)
@@ -40,10 +42,7 @@ class Employees:
         self.DaysWorking.remove(Day)
         self.TotalDaysWorking -= 1
 
-    # GetDaysOff?
-
-    # GetDaysWorking?
-
+    # Return is person is able to work
     def AbleToWork(self, Day):
         NotWorking = True
         for i in range(len(self.DaysOff)):
@@ -56,5 +55,4 @@ class Employees:
 
         return NotWorking
 
-    # GetTotalDaysWorking?
 
