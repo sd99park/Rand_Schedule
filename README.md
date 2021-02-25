@@ -22,7 +22,9 @@ working the most, to the person works the least. It then repeats this comparison
 the person with the most shifts has most less more than 2 shifts then the person with 
 the least shifts. The number 2 can be adjusted, it works best for the number of 
 employees used at my lifeguarding job (roughly 40), but might need to be raised if the 
-number of people increased. 
+number of people increased. To keep days off from causing a problem when we compare and
+balance the total number of shifts per employee we consider a day off the same as having 
+a shift.
 
 # Todo List
 
