@@ -28,10 +28,8 @@ a shift.
 
 # Todo List
 
--Create a Django front end
+-Create a React front end
 
 -Fix bugs as they are found
 
--Change to a bi-weekly schedule rather than weekly
-
--Add a database with login and schedule data stored per user
+-Create an API using this
